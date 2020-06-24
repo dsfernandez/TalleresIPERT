@@ -41,7 +41,7 @@ __R has many features to recommend it (Kabacoff, 2015):__
 
 * R __runs on a wide array of platforms__, including Windows, Unix, and Mac OS X. It’s likely to run on any computer you may have.  If you don’t want to learn a new language, a variety of graphic user interfaces (GUIs) are available, offering the power of R through menus and dialogs.
 
-#####__where to look in the book?__:
+##### __where to look in the book?__:
 __chapter 1__
 
 ***
@@ -49,20 +49,20 @@ __chapter 1__
 ## RStudio
 Programming, editing, project management, and other procedures in R, are more easy and efficient using an integrated development environment (IDE), and the most used and versatile is [RStudio](https://www.cs.utexas.edu/~cannata/dataVis/Class%20Notes/Getting%20Started%20with%20RStudio.pdf).
 
-####_Exercises_
+#### _Exercises_
 __Open RStudio:__  
 
 +  browse all the components of the interface  
 +  establish a Working Directory  
 +  create a __R Script__ (compare with the R console)
   
-![](CreateNotebook.png)
+>![](CreateNotebook.png){#id .class width=100px}\
 
 +  write code to calculate the area of a geometric surface, and run it  
 +  explore other windows and menus of RStudio  
 +  load packages
 
-#####__where to look in the book?__:
+##### __where to look in the book?__:
 __chapter 2 & 3 __
 
 ***
@@ -124,7 +124,7 @@ Producing a PDF document requires a _LaTex_ version for your computer (usually r
 [TinyTex](https://yihui.name/tinytex/)  
 [RPubs](http://rpubs.com/)
 
-#####__where to look in the book?__:
+##### __where to look in the book?__:
 __chapters 27 & 28__
 
 ***
@@ -235,7 +235,7 @@ char
 # what is the result: equal*5 - noequal*5 ? Why?
 ```
 
-#####__where to look in the book?__:
+##### __where to look in the book?__:
 __chapter 4__
 
 ***
@@ -303,7 +303,7 @@ vec.mult
 # What happen if vectors are of different length?
 ```
 
-#####__where to look in the book?__:
+##### __where to look in the book?__:
 __chapter 4 __
 
 ***
@@ -377,7 +377,7 @@ select.df2 <- new.patiendata[new.patiendata$`Diabetes Diagnosis`=="pos",]
 select.df2
 ```
 
-#####__where to look in the book?__:
+##### __where to look in the book?__:
 __chapter 5__
 
 ***
@@ -415,7 +415,7 @@ head(melodata)
 tail(melodata)
 ```
 
-#####__where to look in the book?__:
+##### __where to look in the book?__:
 __chapter 6 __
 
 ***
@@ -495,7 +495,7 @@ meloDS
 meloDS[order(Media)]
 ```
 
-#####where to look in the book?
+##### where to look in the book?
 __chapters 11, 18__
 
 ***
@@ -553,7 +553,7 @@ ggplot(melo.bars, aes(x=estado, y=alturatotal)) +
   scale_y_continuous("Plant Heigth, cm")
 ```
 
-#####where to look in the book?
+##### where to look in the book?
 __chapter 7__
 
 ***
