@@ -3,14 +3,14 @@ title: "Taller RFE 20191026"
 author: "D. S. Fernandez del Viso"
 date: "10/19/2019"
 output:
-  pdf_document:
+  html_document:
+    df_print: paged
     toc: yes
     toc_depth: '5'
   html_notebook:
     toc: yes
     toc_depth: 5
-  html_document:
-    df_print: paged
+  pdf_document:
     toc: yes
     toc_depth: '5'
   word_document:
